@@ -1,0 +1,134 @@
+body {
+  background-color: #141418;
+}
+
+.container {
+  position: relative;
+  width: 470px;
+  height: 450px;
+  margin: 240px auto;
+  background-color: #1f2630;
+  border-radius: 30px;
+}
+
+.text1 {
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  font-family: Sans-serif;
+  margin-left: 30px;
+}
+
+.image {
+  margin-left: 50px;
+  padding-top: 40px;
+  padding-right: 1px;
+  border-radius: 50px;
+}
+
+.text2 {
+  margin: 30px;
+  font-size: 18px;
+  font-family: Sans-serif;
+  color: #d1d3db;
+}
+
+button {
+  border-radius: 50px;
+  border: none;
+  background-color: #262e36;
+  font-size: 18px;
+  text-align: center;
+  color: #d1d3db;
+  padding-top: 16px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-bottom: 16px;
+  margin-top: 18px;
+}
+
+#btn {
+  margin-right: 28px;
+  border-radius: 50px;
+}
+#btn:hover {
+  background-color: #fc7614;
+  color: white;
+}
+
+#btn:focus {
+  background-color: #fc7614;
+  color: white;
+}
+#btn:last-child {
+  margin-right: 0;
+}
+
+#submit {
+  display: flex;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  background-color: #fc7614;
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+}
+#submit:hover {
+  background-color: white;
+  color: #fc7614;
+}
+
+.resultcontainer {
+  position: relative;
+  width: 470px;
+  height: 450px;
+  margin: 240px auto;
+  background-color: #1f2630;
+  border-radius: 30px;
+}
+
+.resultimage {
+  padding-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 150px;
+}
+
+.resulttext1 {
+  background-color: #262e36;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 0.1px;
+  padding-bottom: 0.1px;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-left: 130px;
+  margin-right: 130px;
+  color: #d98646;
+  font-size: 14px;
+  font-family: Sans-serif;
+  font-weight: 500;
+}
+.resulttext2 {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Sans-serif;
+}
+.resulttext3 {
+  color: #d1d3db;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 35px;
+  margin-right: 35px;
+  font-family: Sans-serif;
+  font-size: 18px;
+}
+.hidden {
+  display: none;
+}

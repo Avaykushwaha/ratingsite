@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script defer src="index.js"></script>
+  </head>
+
+  <body>
+    <div id="page1">
+      <div class="container">
+        <div class="image">
+          <img src="./images/icon-star.png" />
+        </div>
+
+        <div class="text1">
+          <p>How did we do?</p>
+        </div>
+
+        <div class="text2">
+          <p style="line-height: 25px">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+          <div class="button">
+            <button id="btn" class="button btn">1</button>
+            <button id="btn" class="btn button">2</button>
+            <button id="btn" class="btn button">3</button>
+            <button id="btn" class="btn button">4</button>
+            <button id="btn" class="btn button">5</button>
+          </div>
+          <button class="submit" onclick="submit('page2','page1')" id="submit">
+            SUBMIT
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="hidden" id="page2">
+      <div class="resultcontainer">
+        <div class="resultimage">
+          <img src="./images/illustration-thank-you.svg" />
+        </div>
+        <div class="resulttext1">
+          <p id="rating">You selected <span id="rate"></span> out of 5</p>
+        </div>
+        <div class="resulttext2">Thank you!</div>
+        <div class="resulttext3">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support,don't hesitate to get in touch!
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
